@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      canvas {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display:flex">
+      <canvas id="canvas" width="800" height="800" style="
+        width:450px;height:450px;margin:15px;"></canvas>
+      <div>
+        <input id="iterations" value="500">
+        <label for="iterations">Iterations</label>
+        <button id="setIterations">Set Amount</button><br>
+        <button id="left">Left</button>
+        <button id="up">Up</button>
+        <button id="down">Down</button>
+        <button id="right">Right</button>
+      </div>
+    </div>
+  <script src="mandel.js"></script>
+  </body>
+</html>
