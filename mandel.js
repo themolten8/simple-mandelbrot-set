@@ -113,10 +113,10 @@ document.querySelector("#right").addEventListener("click", e => {
     redraw(mandelbrotState);
 });
 document.querySelector("#up").addEventListener("click", e => {
-    mandelbrotState.cartesianTopY -= CANVAS_X / 3 * mandelbrotState.cartesianLengthPerPixel;
+    mandelbrotState.cartesianTopY -= CANVAS_Y / 3 * mandelbrotState.cartesianLengthPerPixel;
     redraw(mandelbrotState);
 });
 document.querySelector("#down").addEventListener("click", e => {
-    mandelbrotState.cartesianTopY += CANVAS_X / 3 * mandelbrotState.cartesianLengthPerPixel;
+    mandelbrotState.cartesianTopY += CANVAS_Y / 3 * mandelbrotState.cartesianLengthPerPixel;
     redraw(mandelbrotState);
 });
